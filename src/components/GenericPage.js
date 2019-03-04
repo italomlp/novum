@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from './layout';
+import Layout from './Layout';
 import PageBanner from './PageBanner';
 // import { Container } from './styles';
 import pages from '../pages_content';
