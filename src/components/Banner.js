@@ -29,10 +29,13 @@ const Banner = props => (
           <h1>Novum</h1>
         </header>
         <div className="content">
-          <p>
-            Futurologia, previsão de tendências em comportamento, consumo e
-            lifestyle, e estudos culturais sobre transumanismo
-          </p>
+          <div style={{ flex: 1 }}>
+            <p>
+              Futurologia, previsão de tendências em comportamento, consumo e
+              lifestyle,
+            </p>
+            <p>e estudos culturais sobre transumanismo</p>
+          </div>
           <ul className="actions">
             <li>
               <a href="#projects" className="button next scrolly">
