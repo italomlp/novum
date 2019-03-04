@@ -6,10 +6,11 @@ const Contact = props => (
       <section>
         <form
           name="contact"
-          action="/contactSuccess"
+          action="/contactSuccess/"
           method="post"
           data-netlify="true"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="field half first">
             <label htmlFor="name">Nome</label>
             <input type="text" name="name" id="name" />
