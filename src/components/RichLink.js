@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 // import { Container } from './styles';
 
 const RichLink = props => (
-  <article style={{ backgroundImage: `url(${props.img})` }}>
+  <article style={{ backgroundImage: `url(${props.image})` }}>
     <header className="major">
       <h3>{props.title}</h3>
       <p>{props.resume}</p>

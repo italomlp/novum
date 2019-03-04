@@ -6,8 +6,21 @@ const Banner = props => (
     <Helmet
       title="Novum"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'description',
+          content: `
+            Futurologia, previsão de tendências em comportamento, consumo e lifestyle,
+            e estudos culturais sobre transumanismo
+          `,
+        },
+        {
+          name: 'keywords',
+          content: `
+            futurologia, futurismo, tendencias, pesquisa de tendencias, transumanismo,
+            consumo, comportamento, lifestyle, inteligencia de cores, consultoria,
+            cultura
+          `,
+        },
       ]}
     />
     <section id="banner" className="major">
@@ -17,13 +30,13 @@ const Banner = props => (
         </header>
         <div className="content">
           <p>
-            Futurologia, previsão de tendências em lifestyle, e estudos
-            culturais sobre transumanismo
+            Futurologia, previsão de tendências em comportamento, consumo e
+            lifestyle, e estudos culturais sobre transumanismo
           </p>
           <ul className="actions">
             <li>
-              <a href="#one" className="button next scrolly">
-                Get Started
+              <a href="#projects" className="button next scrolly">
+                Projetos
               </a>
             </li>
           </ul>

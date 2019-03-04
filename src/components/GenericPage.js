@@ -8,15 +8,19 @@ const GenericPage = props => {
   const thisPage = pages.find(page => page.id === props.id) || {};
   return (
     <Layout>
-      <PageBanner title={thisPage.title} resume={thisPage.resume} />
+      <PageBanner
+        title={thisPage.title}
+        resume={thisPage.resume}
+        style={{ backgroundImage: `url(${thisPage.image})` }}
+      />
 
       <div id="main">
         <section id="one">
           <div className="inner">
-            <header className="major">
+            {/* <header className="major">
               <h2>{thisPage.title}</h2>
-            </header>
-            <p>{thisPage.content}</p>
+            </header> */}
+            <div dangerouslySetInnerHTML={{ __html: thisPage.content }} />
           </div>
         </section>
       </div>

@@ -12,32 +12,50 @@ const Menu = props => (
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/landing">
-            Landing
+          <Link onClick={props.onToggleMenu} to="/artImortalidade">
+            Art x Imortalidade
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/generic">
-            Generic
+          <Link onClick={props.onToggleMenu} to="/lifestyleForecasting">
+            Lifestyle forecasting
           </Link>
         </li>
         <li>
-          <Link onClick={props.onToggleMenu} to="/elements">
-            Elements
+          <Link onClick={props.onToggleMenu} to="/inteligenciaCores">
+            Inteligência de cores
+          </Link>
+        </li>
+        <li>
+          <Link onClick={props.onToggleMenu} to="/wellness">
+            Wellness, gênero e prazer
+          </Link>
+        </li>
+        <li>
+          <Link onClick={props.onToggleMenu} to="/mercadoTodxs">
+            Mercado de todxs
+          </Link>
+        </li>
+        <li>
+          <Link onClick={props.onToggleMenu} to="/creative">
+            Creative
           </Link>
         </li>
       </ul>
       <ul className="actions vertical">
         <li>
-          <a href="#" className="button special fit">
-            Get Started
+          <a
+            href="#contact"
+            onClick={props.onToggleMenu}
+            className="button special fit scrolly"
+          >
+            Contato
           </a>
         </li>
-        {/* <li><a href="#" className="button fit">Log In</a></li> */}
       </ul>
     </div>
     <a className="close" onClick={props.onToggleMenu} href="javascript:;">
-      Close
+      Fechar
     </a>
   </nav>
 );

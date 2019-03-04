@@ -7,7 +7,7 @@ const PageBanner = props => (
       <title>{props.title}</title>
       <meta name="description" content={props.description || props.title} />
     </Helmet>
-    <section id="banner" className="style2">
+    <section id="banner" style={props.style || {}} className="style2">
       <div className="inner">
         <header className="major">
           <h1>{props.title}</h1>

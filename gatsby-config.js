@@ -2,15 +2,16 @@ module.exports = {
   siteMetadata: {
     title: 'Novum',
     author: 'Igor Zahir',
-    description: "Novum's website",
+    description: `Futurologia, previsão de tendências em comportamento, consumo e lifestyle,
+      e estudos culturais sobre transumanismo`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'novum-website',
-        short_name: 'novum',
+        name: 'Novum Website',
+        short_name: 'Novum',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
