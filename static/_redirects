@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://novum.netlify.com/* https://novum.igorzahir.com/:splat 301!
